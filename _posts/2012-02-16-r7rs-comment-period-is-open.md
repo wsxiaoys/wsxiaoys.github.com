@@ -3,8 +3,8 @@ layout: post
 title: "R7RS comment period is open!"
 ---
 
-It has been 10 months <strike>from</strike> _since_ the announcement of 1st draft of R7RS. The 6th draft
-finally came out <strike>on</strike> yesterday and a public comment period is open.
+It has been 10 months <s>from</s> _since_ the announcement of 1st draft of R7RS. The 6th draft
+finally came out <s>on</s> yesterday and a public comment period is open.
 
 I'm copying this [message](http://lists.scheme-reports.org/pipermail/scheme-reports/2012-February/001816.html) by Marc Feeley:
 
@@ -27,7 +27,7 @@ I'm copying this [message](http://lists.scheme-reports.org/pipermail/scheme-repo
     For the Scheme language Steering Committee,
     -- Marc Feeley
 
-For many programmers, a dream language's feature list may contain<strike>s</strike>:
+For many programmers, a dream language's feature list may contain<s>s</s>:
 
 * First-class function
 * Function closure
@@ -38,7 +38,7 @@ For many programmers, a dream language's feature list may contain<strike>s</stri
 
 Scheme is such a language. For years it's considered as a language for education (Actually it's perfect in teaching class like compiler principles). But in other fields, it's not really popular, for reasons of lacking the modular development support, no official implemention, hard to manage third party codes, etc.
 
-R7RS tries to fix these shortages. To keep <strike>the simplicity</strike> _it simple_ and powerful, the editors divided the whole language into a small one and a large one.
+R7RS tries to fix these shortages. To keep <s>the simplicity</s> _it simple_ and powerful, the editors divided the whole language into a small one and a large one.
 
 The R7RS-small basically adds module syntax and a few selected feature to R5RS. The large one tries to give a standard interface for third party libraries in different fields, like networking, object-oriented programming, etc. So a completely R7RS implementation should be considered battery-included.
 
