@@ -7,12 +7,35 @@ body {
   font-size: 14px;
   color: #666; }
 
+strike {
+  background-color: yellow; }
+
+em {
+  font-weight: bold; }
+
+pre {
+  color: #f2f2f2;
+  background-color: #393939;
+  border: 1px solid #393939;
+  font-family: consolas, monaco, monospace;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 1.625em;
+  padding: 1.625em;
+  overflow: auto;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6); }
+
 #header {
   font-family: 'Noticia Text', serif;
   padding: 25px;
-  background: #e4d4a3;
+  background: #dfdfdf;
   margin-bottom: 45px;
-  color: #333; }
+  color: #333;
+  -webkit-box-shadow: 0px 0px 3px 4px #dfdfdf;
+  -moz-box-shadow: 0px 0px 3px 4px #dfdfdf;
+  box-shadow: 0px 0px 3px 4px #dfdfdf; }
   #header .inner {
     text-align: left;
     width: 865px;
