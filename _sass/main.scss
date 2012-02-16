@@ -6,13 +6,13 @@ html {
 
 body {
     text-align: center;
-    font-family: 'Helvetica Neue', Helvetica;
+    font-family: 'Merriweather', serif;
     font-size: 14px;
     color: #666;
 }
 
 #header {
-    font-family: 'Lato';
+    font-family: 'Noticia Text', serif;
     padding: 25px;
     background: $main;
     margin-bottom: 45px;
@@ -20,7 +20,7 @@ body {
     
     .inner {
         text-align: left;
-        width: 725px;
+        width: 865px;
         margin: auto;
     }
     
@@ -29,10 +29,9 @@ body {
         list-style-type: none;
         
         li {
-            float: right;
+            margin-top: 5px;
             margin-left: 18px;
-            margin-top: 10px;
-            font-size: 23px;
+            font-size: 20px;
             font-weight: 300;
             
             a {
@@ -48,7 +47,7 @@ body {
     }
     
     h1 {
-        font-size: 59px;
+        font-size: 49px;
         font-weight: bold;
         
         a {
@@ -79,13 +78,14 @@ body {
     
     h3 {
         font-size: 29px;
-        font-family: 'Lato';
+        font-family: 'Noticia Text', serif;
         font-weight: normal;
         margin-bottom: 25px;
     }
     
     h3 a {
         text-decoration: none;
+        color: #333;
     }
     h3 a:hover {
         text-decoration: underline;
@@ -116,7 +116,7 @@ body {
 }
 
 #footer {
-    font-family: 'Lato';
+    font-family: 'Noticia Text', serif;
     background: $main;
     padding: 25px;
     color: #333;

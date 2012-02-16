@@ -8,9 +8,9 @@
   <meta charset="utf-8"> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
  
-  <title>{{ page.title }}</title> 
-  <meta name="author" content="YOUR_NAME" />
-  <link href='http://fonts.googleapis.com/css?family=Lato:light,regular,bold' rel='stylesheet' type='text/css'>
+  <title>{{ site.title }}{% if page.title %} - {{ page.title }} {% endif %} </title> 
+  <meta name="author" content="Meng Zhang" />
+  <link href='http://fonts.googleapis.com/css?family=Noticia+Text:400,700|Merriweather' rel='stylesheet' type='text/css'>
   <link href="/css/reset.css" media="screen" rel="stylesheet" type="text/css" /> 
   <link href="/css/main.css" media="screen" rel="stylesheet" type="text/css" /> 
   <link rel="alternate" type="application/rss+xml" href="/atom.xml" title="RSS feed">
@@ -20,11 +20,11 @@
         <div id="header">
             <div class="inner">
                 <ul>
-                    <li><a href="http://www.twitter.com/YOUR_TWITTER">Follow Me</a></li>
+                    <li><a href="http://www.twitter.com/wsxiaoys">Follow Me</a></li>
                     <li><a href="/about/">About Me</a></li>
                 </ul>
-                <h1><a href="/">YOUR NAME</a></h1>
-                <h2>My Byline</h2>
+                <h1><a href="/">Meng Zhang</a></h1>
+                <h2>Foolish, hungry man</h2>
             </div>
         </div>
                 
@@ -51,9 +51,12 @@
                 <div class="about">
                     <h3><a href="/about/">About Me</a></h3>
                     
-                    <a href="/about/"><img src="/images/me_small.png" alt="ME" /></a>
+                    <a href="/about/"><img src="/images/me_small.jpg" alt="ME" /></a>
                     <div>
-                        This is yet a short description of myself. Try to keep it short. <a href="/about/">Read more</a>
+                        <p>
+                        I'm Meng Zhang, and I have a strong wish that amazing products can be created by me thus the world becomes better.
+                        </p>
+                        <a href="/about/">Read more</a>
                     </div>
                 </div>
             </div>

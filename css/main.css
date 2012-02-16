@@ -3,28 +3,27 @@ html {
 
 body {
   text-align: center;
-  font-family: 'Helvetica Neue', Helvetica;
+  font-family: 'Merriweather', serif;
   font-size: 14px;
   color: #666; }
 
 #header {
-  font-family: 'Lato';
+  font-family: 'Noticia Text', serif;
   padding: 25px;
   background: #e4d4a3;
   margin-bottom: 45px;
   color: #333; }
   #header .inner {
     text-align: left;
-    width: 725px;
+    width: 865px;
     margin: auto; }
   #header ul {
     float: right;
     list-style-type: none; }
     #header ul li {
-      float: right;
+      margin-top: 5px;
       margin-left: 18px;
-      margin-top: 10px;
-      font-size: 23px;
+      font-size: 20px;
       font-weight: 300; }
       #header ul li a {
         color: #333;
@@ -32,7 +31,7 @@ body {
         #header ul li a:hover {
           text-decoration: underline; }
   #header h1 {
-    font-size: 59px;
+    font-size: 49px;
     font-weight: bold; }
     #header h1 a {
       text-decoration: none;
@@ -52,11 +51,12 @@ body {
   margin-bottom: 55px; }
   .post h3 {
     font-size: 29px;
-    font-family: 'Lato';
+    font-family: 'Noticia Text', serif;
     font-weight: normal;
     margin-bottom: 25px; }
   .post h3 a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #333; }
   .post h3 a:hover {
     text-decoration: underline; }
   .post .body {
@@ -74,7 +74,7 @@ body {
     color: #999; }
 
 #footer {
-  font-family: 'Lato';
+  font-family: 'Noticia Text', serif;
   background: #e4d4a3;
   padding: 25px;
   color: #333; }
