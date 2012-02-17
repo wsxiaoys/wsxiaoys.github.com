@@ -3,7 +3,7 @@ layout: post
 title: "Why blogging in English?"
 ---
 
-I recently read a [blog](http://www.lixiaolai.com/archives/11513.html) by Xiaolai Li(李笑来), who is a<s>n</s> top EFL teacher in China.
+I read a [blog](http://www.lixiaolai.com/archives/11513.html) by Xiaolai Li(李笑来), who is a<s>n</s> top EFL teacher in China.
 
 Recently he start<font color="red">ed</font> blogging in English. The article in previous link is actually his first one in pure English. If you're familiar with Chinese EFL education or you've taken any classes from NewOriental(新东方) you should know that although there are many famous EFL teacher<font color="red">s</font> in China, they don't write many English articles because they focus on how to improve your GRE/TOEFL/IETLS score.
 
