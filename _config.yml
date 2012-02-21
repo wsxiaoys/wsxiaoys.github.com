@@ -3,6 +3,7 @@ auto: true
 permalink: pretty
 url: "http://wsxiaoys.github.com"
 title: "Meng Zhang"
+pygments: true
 exclude:
   - start.sh
   - Rakefile
