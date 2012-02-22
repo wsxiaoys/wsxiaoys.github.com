@@ -17,4 +17,4 @@ To implement call/cc, we need coroutine primitives *clone* to make a copy of a g
 The point is to make one coroutine <s>can</s> be resumed from the same point more than once.
 <script src="https://gist.github.com/1880669.js?file=callcc.lua"></script>
 
-The lua code is a modified from [callcc.lua](https://github.com/torus/lua-call-cc/blob/master/callcc.lua)
+The lua code is a modified fork of [callcc.lua](https://github.com/torus/lua-call-cc/blob/master/callcc.lua)
