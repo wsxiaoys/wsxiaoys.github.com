@@ -99,6 +99,10 @@ pre {
     border-top: 3px double #ddd;
     padding-top: 25px;
     color: #999; }
+  .post img {
+    max-width: 700px;
+    margin: auto;
+    display: block; }
 
 #footer {
   font-family: 'Noticia Text', serif;
