@@ -101,8 +101,9 @@ pre {
     color: #999; }
   .post img {
     max-width: 700px;
-    margin: auto;
-    display: block; }
+    -webkit-box-shadow: 1px 1px 1px 2px #222;
+    -moz-box-shadow: 1px 1px 1px 2px #222;
+    box-shadow: 1px 1px 1px 2px #222; }
 
 #footer {
   font-family: 'Noticia Text', serif;
