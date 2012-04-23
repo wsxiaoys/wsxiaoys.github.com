@@ -7,6 +7,8 @@ I talked with friends on OOP when having dinner yesterday. We argued about the O
 
 In this article, I don't want to make a flame war on which one is better but try introducing the original form of Object-oriented and why languages like C++/Java doesn't really take it.
 
+---
+
 # Part I: Runtime Dispatching
 Let's take an example of invoking an object's virtual method in C++:
 <script src="https://gist.github.com/2464783.js?file=animal.cpp"></script>
