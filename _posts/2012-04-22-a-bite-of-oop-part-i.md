@@ -34,4 +34,4 @@ Say we're writing some wrappers for the data saved in CSV files. In C++ you have
 
 But with runtime dispatching you can achieve it in an easy way. The method matching is done in the runtime, one thing we can do is to capture the "Method Missing" event. Then we can forward missing `[obj attr]` method call to `[obj getField:attr]`. ([Detail example](http://langexplr.blogspot.com/2008/02/handling-call-to-missing-method-in_06.html))
 
-The example above is just one points of so many features of runtime dispatching, in part II I'll talk about some really cool features like runtime class declaration, accessing class's metadata, etc.
+The example above is just one of fancy features in runtime dispatching, in part II I'll talk about some really cool features like runtime class declaration, accessing class's metadata, etc.
