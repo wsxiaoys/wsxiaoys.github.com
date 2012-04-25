@@ -9,7 +9,7 @@ In this article, I don't want to make a flame war on which one is better but try
 
 ---
 
-# Part I: Runtime Dispatching
+## Part I: Runtime Dispatching
 Let's take an example of invoking an object's virtual method in C++:
 <script src="https://gist.github.com/2464783.js?file=animal.cpp"></script>
 Experienced C++ programmers know what compiler do with the virtual methods:
