@@ -1,5 +1,21 @@
 @import "boilerplate";
 
+// Mixins
+.clean-link () {
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.clean-link (@hover) {
+  .clean-link;
+  a:hover {
+    text-decoration: @hover;
+  }
+}
+
+// Generalize
 ::selection { background:#FF5E99; color:#fff; text-shadow: none; } 
 
 html {
@@ -15,23 +31,17 @@ a, a:active, a:visited {
   color: #607890;
 }
 
-.clean-link(@display: none) {
-  a {
-    text-decoration: none;
-    color: inherit;
-    &:hover {
-      text-decoration: @display;
-    }
-  }
-}
 
 #page-header {
+  @bg: #dfdfdf;
+  @fg: #333;
+
   font-family: 'Noticia Text', serif;
   padding: 25px;
   margin-bottom: 45px;
-  background: #dfdfdf;
-  color: #333;
-  .box-shadow(0px 0px 3px 4px #dfdfdf);
+  background: @bg;
+  color: @fg;
+  .box-shadow(0px 0px 3px 4px @bg);
 
   .inner {
     width: 865px;
@@ -40,12 +50,12 @@ a, a:active, a:visited {
 
   nav {
     float: right;
+    .clean-link(underline);
+
     li {
-      margin-top: 5px;
-      margin-left: 18px;
+      margin-top: 10px;
       font-size: 20px;
-      font-weight: 300;
-      .clean-link(underline);
+      font-weight: light;
     }
   }
 
@@ -57,7 +67,7 @@ a, a:active, a:visited {
 
   h2 {
     font-size: 23px;
-    font-weight: 300;
+    font-weight: light;
   }
 }
 
@@ -130,7 +140,6 @@ a, a:active, a:visited {
 
   h1 {
     font-size: 24px;
-    font-weight: 300;
     margin-bottom: 15px;
   }
 
