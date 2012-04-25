@@ -1,11 +1,11 @@
-markdown: rdiscount
 auto: true
+markdown: rdiscount
 permalink: pretty
-url: "http://wsxiaoys.github.com"
-title: "Meng Zhang"
 pygments: true
 exclude:
   - start.sh
   - Rakefile
   - pids
   - stop.sh
+
+owner_name:         "Meng Zhang"

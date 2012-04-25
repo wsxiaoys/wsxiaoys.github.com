@@ -1,17 +1,18 @@
 ---
 layout: default
+title: Home
 ---
 
 {% for post in site.posts limit:3 %}
-    <div class="post">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      
-        <div class="body">
-            {{ post.content }}
-        </div>
-        
-        <div class="meta">
-            Posted on <a href="{{ post.url }}">{{ post.date | date_to_string }}</a>
-        </div>
-    </div>
+  <article class="post">
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+
+    <section class="body">
+      {{ post.content }}
+    </section>
+
+    <section class="meta">
+      Posted on <a href="{{ post.url }}">{{ post.date | date_to_string }}</a>
+    </section>
+  </article>
 {% endfor %}

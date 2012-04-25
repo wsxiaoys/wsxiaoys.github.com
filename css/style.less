@@ -1,0 +1,165 @@
+@import "boilerplate";
+
+::selection { background:#FF5E99; color:#fff; text-shadow: none; } 
+
+html {
+  padding: 35px 0px 35px 0px;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+  font-size: 1.15em;
+}
+
+a, a:active, a:visited {
+  color: #607890;
+}
+
+.clean-link(@display: none) {
+  a {
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+      text-decoration: @display;
+    }
+  }
+}
+
+#page-header {
+  font-family: 'Noticia Text', serif;
+  padding: 25px;
+  margin-bottom: 45px;
+  background: #dfdfdf;
+  color: #333;
+  .box-shadow(0px 0px 3px 4px #dfdfdf);
+
+  .inner {
+    width: 865px;
+    margin: auto;
+  }
+
+  nav {
+    float: right;
+    li {
+      margin-top: 5px;
+      margin-left: 18px;
+      font-size: 20px;
+      font-weight: 300;
+      .clean-link(underline);
+    }
+  }
+
+  h1 {
+    font-size: 49px;
+    font-weight: bold;
+    .clean-link;
+  }
+
+  h2 {
+    font-size: 23px;
+    font-weight: 300;
+  }
+}
+
+#main {
+  .inner {
+    width: 725px;
+    margin: auto;
+  }
+
+  .post {
+    margin-bottom: 55px;
+
+    h1 {
+      font-size: 29px;
+      margin-bottom: 25px;
+      .clean-link(underline);
+    }
+
+    .body {
+      p {
+        margin-bottom: 1em;
+      }
+
+      ul {
+        margin-left: 1.8em;
+        list-style-type: disc;
+        margin-bottom: 1em;
+        li {
+          margin-bottom: 0.5em;
+        }
+      }
+
+      pre {
+        color: #f2f2f2;
+        background-color: #393939;
+        border: 1px solid #393939;
+        font-family: consolas, monaco, monospace;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1.625em;
+        padding: 1.625em;
+        overflow: auto;
+        white-space: pre-wrap;
+        .box-shadow("inset 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.6)");
+      }
+    }
+
+    .meta {
+      border-top: 3px double #ddd;
+      margin-top: 25px;
+      padding-top: 25px;
+      color: #999;
+    }
+  }
+}
+
+#page-footer {
+  background: #e4d4a3;
+  padding: 25px;
+  font-size: 15px;
+
+  h1 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+
+  .inner {
+    width: 725px;
+    margin: auto;
+  }
+  
+  .archives {
+    float: left;
+    margin-right: 25px;
+    a {
+      text-decoration: none;
+       &:hover {
+         text-decoration: underline;
+       }
+    }
+  }
+
+  .about {
+    float: left;
+    img {
+     float: left;
+    }
+
+    div {
+      padding-left: 94px;
+      width: 140px;
+    }
+  }
+}
+
+// Fix gist syntax
+.gist .gist-file .gist-data .gist-highlight pre {
+    font-size: 14px !important; 
+    color: #000;
+}
+
+.gist-syntax .n { color:#000; }
+.gist-syntax .p { color:#000; }
+

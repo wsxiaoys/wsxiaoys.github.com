@@ -1,8 +1,9 @@
 --- 
 layout: page
+title: About
 ---
 
-<div class="my_pic">
+<div style="float:right"> 
     <img src="/images/me.jpg">
 </div>
 
