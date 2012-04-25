@@ -4,7 +4,7 @@ title: About
 ---
 
 <div style="float:right"> 
-    <img src="/images/me.jpg">
+    <img src="/images/me.jpg" alt="ME" />
 </div>
 
 <div class="about_head">
