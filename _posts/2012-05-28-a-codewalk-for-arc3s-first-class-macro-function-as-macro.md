@@ -35,7 +35,7 @@ Rather than return nil, it generates following error:
 
 The reason is that in the compiling process, `(identity dummy)` is not handled as an macro call since the symbol _identity_ has not been registered in the runtime. Besides this, unhygienic macros may lead to difficult-to-detect problems. So be wise when using them :).
 
-You might also interested in:
+You might also be interested in:
 
 * Paul Graham's [posts on Arc](http://www.paulgraham.com/ilc03.html)
 * Matt Might's [posts on a meta-circular evaluator with first-class macros](http://matt.might.net/articles/metacircular-evaluation-and-first-class-run-time-macros/)
