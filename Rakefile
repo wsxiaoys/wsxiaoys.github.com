@@ -24,3 +24,14 @@ task :post do
     post.puts "---"
   end
 end # task :post
+
+desc "Generate less css"
+task :less do
+  sh 'lessc -x css/style.less > css/style.css'
+  sh 'git add css/style.css'
+end # task :less
+
+desc "Deploy the blog"
+task :deploy do
+  sh 'git push origin master --force'
+end
