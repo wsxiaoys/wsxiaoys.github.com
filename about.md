@@ -16,9 +16,11 @@ title: About
 
 Mail: ![email](/images/mail.png)
 
-Weibo: [@wsxiaoys](http://weibo.com/wsxiaoys)
+Weibo: [@Mennng](http://weibo.com/wsxiaoys)
 
 Twitter: [@wsxiaoys](http://twitter.com/wsxiaoys)
+
+Google+: [+Meng Zhang](https://plus.google.com/104671006783345032093)
 
 <!-- <h3>My Projects</h3>
 
