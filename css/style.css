@@ -31,7 +31,7 @@ a,a:active,a:visited{color:#607890;}
 #main .post .body img{max-width:700px;-moz-box-shadow:1px 1px 8px 0px #222222;-webkit-box-shadow:1px 1px 8px 0px #222222;box-shadow:1px 1px 8px 0px #222222;}
 #main .post .meta{border-top:3px double #ddd;margin-top:25px;padding-top:25px;color:#999;}
 #page-footer{background:#dbddb0;padding:25px;font-size:15px;}#page-footer h1{font-size:24px;margin-bottom:15px;}
-#page-footer .inner{width:800px;margin:auto;}
+#page-footer .inner{width:900px;margin:auto;}
 #page-footer .archives{float:left;margin-right:25px;}#page-footer .archives a{text-decoration:none;}#page-footer .archives a:hover{text-decoration:underline;}
 #page-footer .about{float:left;}#page-footer .about img{float:left;}
 #page-footer .about div{padding-left:94px;width:180px;}
