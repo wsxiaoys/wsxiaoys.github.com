@@ -2,13 +2,35 @@
 layout: default
 ---
 <article class="post">
+  <header>
   <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+  </header>
   <section class="body">
     {{ content }}
   </section>
   <section class="meta">
     Posted on <a href="{{ page.url }}">{{ page.date | date_to_string }}</a>
   </section>
+  <section class="social">
+    <script type="text/javascript">
+        (function(){
+         var hn_like = document.createElement('iframe');
+         hn_like.frameborder="no";
+         hn_like.scrolling="no";
+         hn_like.height="31px";
+         hn_like.width="100px";
+         hn_like.src = "http://hnlike.com/upvote.php?link="
+         + encodeURIComponent(document.location)
+         + "&title="
+         + encodeURIComponent("{{ page.title }}");
+         hn_like.innerHTML="iframes not supported by your browser";
+         var social = document.getElementsByClassName("social")[0];
+         social.appendChild(hn_like);
+         })();
+    </script>
+    <script type="text/javascript" src="http://www.reddit.com/static/button/button1.js"></script>
+  </section>
+
   <div id="disqus_thread"></div>
   <script type="text/javascript">
       /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */

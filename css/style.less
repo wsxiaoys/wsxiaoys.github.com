@@ -24,7 +24,6 @@ html {
 
 body {
   font-family: 'PT Serif', serif;
-  font-size: 1.15em;
 }
 
 a, a:active, a:visited {
@@ -80,17 +79,27 @@ a, a:active, a:visited {
   .post {
     margin-bottom: 55px;
 
-    h1 {
-      font-size: 1.8em;
-      margin-bottom: 25px;
+    header {
+      margin-bottom: 1em;
       .clean-link(underline);
     }
 
-    h2 { font-size: 1.4em; }
-    h3 { font-size: 1.10em; }
-    h4 { font-weight: bold; }
+    h1 {
+      font-size: 1.8em;
+      font-weight: bold;
+    }
 
     .body {
+      .title(@size) {
+        font-size: @size;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+      }
+      h1 { .title(1.6em); }
+      h2 { .title(1.4em); }
+      h3 { .title(1.1em); }
+      h4 { .title(1.0em); }
+
       p {
         margin-bottom: 1em;
       }
@@ -109,7 +118,7 @@ a, a:active, a:visited {
       }
 
       strong {
-        font-style: bold;
+        font-weight: bolder;
       }
 
       code {
@@ -141,15 +150,25 @@ a, a:active, a:visited {
 
     .meta {
       border-top: 3px double #ddd;
-      margin-top: 25px;
-      padding-top: 25px;
+      margin-top: 1em;
+      padding-top: 1em;
       color: #999;
+    }
+
+    .social {
+      margin-top: 1em;
+      padding-toop: 1em;
     }
   }
 }
 
+#disqus_thread {
+  margin-top: 0.3em;
+  padding-top: 0.3em;
+}
+
 #page-footer {
-  background: #dbddb0;
+  background: #D4E4E3;
   padding: 25px;
   font-size: 15px;
 
@@ -165,7 +184,6 @@ a, a:active, a:visited {
   
   .archives {
     float: left;
-    margin-right: 25px;
     a {
       text-decoration: none;
        &:hover {
@@ -175,7 +193,7 @@ a, a:active, a:visited {
   }
 
   .about {
-    float: left;
+    float: right;
     img {
      float: left;
     }
@@ -190,9 +208,8 @@ a, a:active, a:visited {
 // Fix gist syntax css
 .gist .gist-file .gist-data .gist-highlight pre {
     font-size: 14px !important; 
-    color: #000;
+    color: #000 !important;
 }
 
 .gist-syntax .n { color:#000; }
 .gist-syntax .p { color:#000; }
-
