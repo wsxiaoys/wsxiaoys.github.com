@@ -54,6 +54,6 @@ One junior student came to talk with me. While it's disappointing that what he w
 
 I don't know the reason of all these crazy stuff, and I agree it's good to be wealthy. But that should not be an individual's ultimate goal!
 
-As an engineer I enjoy quite a lot when creating stuff, watching them move, sharing them with my friends. Money is only a by-product to me. You could not agree with me since you're different. BUT LIVE FOR MONEY IS AS BORING AS HELL!
+As an engineer I enjoy quite a lot when creating stuff, watching them move, sharing them with my friends. Money is only a by-product to me. You could not agree with me because you're different. But you cannot deny that LIVING FOR MONEY IS AS BORING AS HELL!
 
 
