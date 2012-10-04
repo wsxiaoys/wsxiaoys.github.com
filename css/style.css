@@ -12,7 +12,7 @@ body{font-family:'PT Serif',serif;}
 a,a:active,a:visited{color:#607890;}
 #page-header{font-family:'Noticia Text',serif;padding:25px;margin-bottom:45px;background:#dfdfdf;color:#333333;-moz-box-shadow:0px 0px 3px 4px #dfdfdf;-webkit-box-shadow:0px 0px 3px 4px #dfdfdf;box-shadow:0px 0px 3px 4px #dfdfdf;}#page-header .inner{width:865px;margin:auto;}
 #page-header nav{float:right;}#page-header nav a{text-decoration:none;color:inherit;}
-#page-header nav a:hover{text-decoration:underline;}f
+#page-header nav a:hover{text-decoration:underline;}
 #page-header nav li{margin-top:10px;font-size:20px;font-weight:light;}
 #page-header h1{font-size:49px;font-weight:bold;}#page-header h1 a{text-decoration:none;color:inherit;}
 #page-header h2{font-size:23px;font-weight:light;}
