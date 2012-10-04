@@ -37,6 +37,7 @@ a,a:active,a:visited{color:#607890;}
 #page-footer{background:#D4E4E3;padding:25px;font-size:15px;}#page-footer h1{font-size:24px;margin-bottom:15px;}
 #page-footer .inner{width:900px;margin:auto;}
 #page-footer .archives{float:left;}#page-footer .archives a{text-decoration:none;}#page-footer .archives a:hover{text-decoration:underline;}
+#page-footer .archives .date{width:85px;}
 #page-footer .about{float:right;}#page-footer .about img{float:left;}
 #page-footer .about div{padding-left:94px;width:180px;}
 .gist .gist-file .gist-data .gist-highlight pre{font-size:14px !important;color:#000 !important;}
