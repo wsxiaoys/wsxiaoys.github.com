@@ -8,10 +8,9 @@ title: About
 </div>
 
 <div class="about_head">
-    <p>I'm an intern of computer vision research group in Google. I developed algorithms in image enhancement area.</p>
-    <p>In the mean time, I'm a senior student in Tongji University, major in Software Engineering. I had been an ACM/ICPC player in college team for three years.</p> 
-    <p>Though I code in most of my spare time, I keep some hobbies like reading books, watching comics (both manga and American comic). </p>
-    <p>I write this blog to practice my English writing and expression. Please leave a comment if you find any mistakes.</p>
+    <p>I became an engineer of Google in Jul 2012 after graduated from Tongji University. Before that I'm a research intern of computer vision research group. </p>
+    <p>Though I enjoy coding in most of my spare time, I keep some hobbies like reading books, watching comics (both manga and American comic). </p>
+    <p>I write this blog to practice my English writing and expression. Please leave a comment if you find any mistakes :D.</p>
 </div>
 
 Mail: ![email](/images/mail.png)
