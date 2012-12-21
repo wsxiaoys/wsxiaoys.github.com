@@ -24,7 +24,7 @@ a,a:active,a:visited{color:#607890;}
 #main .post .body h2{font-size:1.4em;font-weight:bold;margin-bottom:0.5em;}
 #main .post .body h3{font-size:1.1em;font-weight:bold;margin-bottom:0.5em;}
 #main .post .body h4{font-size:1em;font-weight:bold;margin-bottom:0.5em;}
-#main .post .body p{margin-bottom:1em;}
+#main .post .body p{margin-bottom:1em;line-height:1.5;}
 #main .post .body ul{margin-left:1.8em;list-style-type:disc;margin-bottom:1em;}#main .post .body ul li{margin-bottom:0.5em;}
 #main .post .body em{font-style:italic;}
 #main .post .body strong{font-weight:bolder;}
