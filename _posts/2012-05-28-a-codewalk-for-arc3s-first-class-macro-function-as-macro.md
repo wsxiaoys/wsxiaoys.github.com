@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Codewalk for Arc3's first-class(runtime) macros
+title: "A Codewalk for Arc3's first-class(runtime) macros"
 ---
 
 Arc is a lisp dialect created by [Paul Graham](http://en.wikipedia.org/wiki/Paul_Graham_\(computer_programmer\)). It's a tiny lisp implementation built on the top of [Racket](http://www.racket-lang.org).
